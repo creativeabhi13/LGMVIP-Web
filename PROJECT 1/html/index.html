@@ -41,7 +41,6 @@
                         <a href="#projects" class="nav-link">Projects</a>
                         <a href="#pricing" class="nav-link">Pricing</a>
                         <a href="#team" class="nav-link">Team</a>
-                        <a href="#blogs" class="nav-link">Blog</a>
                         <a href="#contact" class="nav-link">Contact</a>
                   </div>
             <!------------title of the page--------------->
@@ -518,31 +517,65 @@
         <!---------------------------------Fourth section end ------------------------------------->
 
       <!---------------------------------Fifth section  ------------------------------------->
-             
+                       <div class="fifth-class" id="fifth">
+                            <div class="fifth-title">
+                               <h2 >TEAM MEMBERS</h2>
+                            </div>
+                            <div class="row">
+                                <div class="column">
+                                    <img class="slider" src="/PROJECT 1/Image/team 1.jpg" alt="" width="30%" height="300">
+                                </div>
+                                <div class="column">
+                                    <img class="slider" src="/PROJECT 1/Image/team 2.jpg" alt="" width="30%" height="300">
+                                </div>
+                                <div class="column">
+                                    <img class="slider" src="/PROJECT 1/Image/team 3.jpg" alt="" width="30%" height="300">
+                                </div>
+                                <div class="column">
+                                    <img class="slider" src="/PROJECT 1/Image/team 4.png" alt="" width="30%" height="300">
+                                </div>
+                            </div>
+
+                            <div class="container">
+                                <span onclick="this.parentElement.style.display='none'" class="close-button">&times;
+                                <img id="expandedImg">
+
+                                <div id="imgtext"></div>
+                              </span>
+                            </div>
+                       </div> 
+
+        <!---------------------------------Script 5 -------------------------------------> 
+                         <script type="text/javascript">
+                             function myfunction(imgs){
+                                  var expandedImg = Document.getElementByid("expandedImg");
+                                  var imgtext = Document.getElementByid("imgtext");
+                                  expandImg.src =imgs.src;
+                                  imgText.innerHTML = imgs.alt;
+                                  expandImg.parentElement.style.display ="block";
+                             }
+
+                         </script>
+
+<!---------------------------------sixth section  ------------------------------------->
+                        <div class="sixth-class" id="sixth">
+                              <div class="sixth-title">
+                               <h2>CONTACT DETAILS</h2>
+                              </div>
+                              <div class="details"></div>
+                              <p id="info">
+                                 <strong> Address </strong>
+                              <br>301/303,3rd flower 
+                              <br>Gali no.2a,j block 
+                              <br> West sagarpur
+                              <br>New Delhi(110046)
+                              </p>
+                        </div>
+
+  
       </div>
 
              
-           <!--  Features_Technology
-            <Section class="tech" id="tech"> 
-                 <div class="row" id="tech">
-                    <h1 class="big-heading">TECHNOLOGY</h1>
-                       <div class="slide">
-                          <img src="/PROJECT 1/Image/web.png" alt="image" width="100%" height="1000">
-                       </div>
-                       <div class="slide">
-                          <img src="/PROJECT 1/Image/blcokchain2.jpg" alt="image" width="100%" height="1000">
-                       </div>
-                       <div class="slide">
-                          <img src="/PROJECT 1/Image/data sceienc.jpg" alt="image" width="100%" height="1000">
-                       </div>
-                       <div class="slide">
-                          <img src="/PROJECT 1/Image/ai.jpg" alt="image" width="100%" height="1000">
-                       </div>
-                       
-
-                 </div>
-
-            </Section> -->
-
+           
 </body>
 </html>
