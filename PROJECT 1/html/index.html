@@ -23,7 +23,7 @@
 <body>
    <!--first section -->
       <div class="first-class" id="first">
-           <div class="slides">
+         <div class="slides">
               
               <!--radio button-->
                <input type="radio" name="radio-button" id="radio1">
@@ -69,21 +69,109 @@
                               </div>
             <!--Title description-->
 
-                                       <div class="description">
+                                          <div class="description">
                                                 <h1 class="big-heading">WELCOME TO THE TECHNOLOGICAL WORLD!</h1>
                                                 <h3>If we teach today as we taught yesterday, we rob our children of tomorrow</h3> 
-                                       </div>
+                                          </div>
 
                      <!--First button-->
                                           <div class="button">
                                              <button class="button">Lern More</button>
                                           </div>
+                  
+                  <!--navigation menu-->
+                                          <div class="navigation">
+                                                <div class="button1"></div>
+                                                <div class="button2"></div>
+                                                <div class="button3"></div>
+                                                <div class="button4"></div>
+                                                <div class="button5"></div>
+                                          </div>
 
-            </div>
+                 <!--navigation menu manual-->
+                                          <div class="navigation-manual">
+                                                <div for="radio1" class="manual-button1"></div>
+                                                <div for="radio2" class="manual-button2"></div>
+                                                <div for="radio3" class="manual-button3"></div>
+                                                <div for="radio4" class="manual-button4"></div>
+                                                <div for="radio5" class="manual-button5"></div>
+                                          </div>
+         </div>
+                         <script type="text/javascript">
+                            var count = 1
+                            setinterval(function(){
+                               document.getElementByid('radio'+count).checked+true;
+                               count++;
+                               if(count>5){
+                                  count=1;
+                               }
+                            },4000);
+                        </script>
+            <!--first section end-->
+
+   <!--------------------------------second section starting------------------------------------>
+                     <div class="second-class" id="second">
+                           <div class="second-title">
+                              <h2>TECHNOLOGY</h2>
+                           </div>
+                           
+                           <div class="row-slide">
+                                <div class="tech">
+                                     <div class="tech1">
+                                        <img  class="slider" src="/PROJECT 1/Image/Artificial-Intelligence-Technology.png" alt=""  width="30%" height="300">
+                                     </div>
+                                </div>
+                                <div class="tech">
+                                     <div class="tech2">
+                                        <img  class="slider" src="/PROJECT 1/Image/data-science.jpg" alt="" width="30%" height="300">
+                                     </div>
+                                </div>
+                                
+                                <div class="tech">
+                                     <div class="tech3">
+                                        <img  class="slider" src="/PROJECT 1/Image/cloud-computing.jpg" alt="" width="30%" height="300">
+                                     </div>
+                                </div>
+                                <div class="tech">
+                                     <div class="tech4">
+                                        <img  class="slider" src="/PROJECT 1/Image/data-science.jpg" alt="" width="30%" height="300">
+                                     </div>
+                                </div>
+                                <div class="tech">
+                                     <div class="tech5">
+                                        <img  class="slider" src="/PROJECT 1/Image/webdev.jpg" alt="" width="30%" height="300">
+                                     </div>
+                                </div>
+                                <div class="tech">
+                                     <div class="tech6">
+                                        <img  class="slider" src="/PROJECT 1/Image/Android-app-development.jpg" alt=""  width="30%" height="300">
+                                     </div>
+                                </div>
+
+
+
+
+
+
+
+
+                           </div>
+
+
+
+
+
+
+
+
+
+
+                     </div>
+          
       </div>
 
              
-            <!--Features_Technology-->
+           <!--  Features_Technology
             <Section class="tech" id="tech"> 
                  <div class="row" id="tech">
                     <h1 class="big-heading">TECHNOLOGY</h1>
@@ -103,7 +191,7 @@
 
                  </div>
 
-            </Section>
+            </Section> -->
 
 </body>
 </html>
