@@ -1,5 +1,402 @@
 body {
-  background-color: azure;
+  margin: 0;
+  padding: 0;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
 }
+
+@media (min-width: 1024px) {
+  body::before {
+    background-attachment: fixed;
+  }
+}
+
+/* ----------------------------first---------------------------------------------*/
+
+.first-class {
+  width: 1688px;
+  height: 860px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.slides {
+  width: 500%;
+  height: 600px;
+  display: flex;
+}
+.slides input {
+  display: none;
+}
+.slide {
+  width: 50%;
+  transition: 1s;
+}
+.slide img {
+  width: 1688px;
+  height: 860px;
+}
+.description {
+  position: absolute;
+  width: 1688px;
+  height: 860px;
+  background: black;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  border-radius: 5px;
+  font-size: 25px;
+}
+@media (max-width: 1688px) {
+  .description {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.title1 {
+  position: absolute;
+  left: 10%;
+  font-size: 25px;
+  color: white;
+  text-shadow: 10px 20px 20px rgba(red, green, blue, alpha);
+  font-family: "Quicksand", sans-serif;
+  margin-top: -20px;
+}
+.option {
+  position: absolute;
+  left: 60%;
+  display: flex;
+  flex-flow: row;
+  z-index: 1;
+}
+.option a {
+  padding: 15px;
+  font-size: 21px;
+  text-decoration: none;
+  color: white;
+  font-weight: 900;
+  font-family: "Quicksand", sans-serif;
+  text-shadow: rgba(red, green, blue, alpha);
+}
+@media (max-width: 1688px) {
+  .option a {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+  }
+}
+.navigation-manual {
+  position: absolute;
+  width: 1688px;
+  margin-top: -40px;
+  cursor: pointer;
+  transition: 1s;
+}
+.manual-button:not(:last-child) {
+  margin-top: 40px;
+}
+.manual-button:hover {
+  background: white;
+}
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -20%;
+}
+#radio3:checked ~ .first {
+  margin-left: -40%;
+}
+#radio4:checked ~ .first {
+  margin-left: -60%;
+}
+#radio5:checked ~ .first {
+  margin-left: -80%;
+}
+.navigation {
+  position: absolute;
+  display: flex;
+  width: 1688px;
+  justify-content: center;
+  transition: 1s;
+  margin-top: 560px;
+}
+.navigation div {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.navigation div:not(:last-child) {
+  margin-right: 40px;
+}
+#radio1:checked ~ .navigation .button1 {
+  background: white;
+}
+#radio2:checked ~ .navigation .button2 {
+  background: white;
+}
+#radio3:checked ~ .navigation .button3 {
+  background: white;
+}
+#radio4:checked ~ .navigation .button4 {
+  background: white;
+}
+#radio5:checked ~ .navigation .button5 {
+  background: white;
+}
+
+/* -------------------------------------------------------- second ------------------------------------*/
+.second-class {
+  width: 1600px;
+  height: 2500px;
+  border-radius: 12px;
+  color: white;
+}
+.second-title {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-shadow: rgba(red, green, blue, alpha);
+  padding: 5px;
+  margin-left: 43%;
+}
+.tech {
+  width: 100%;
+  height: 100%;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: gray;
+  border-radius: 10px;
+  box-shadow: 10px 30px 50px 80px rgba(red, green, blue, alpha);
+  display: inline-block;
+  flex-flow: row;
+}
+.tech img {
+  border-radius: 10px;
+  width: 100%;
+  height: 350px;
+}
+/* -------------------------------------------------------- third ------------------------------------*/
+.third-class {
+  width: 1688px;
+  height: 1060px;
+  border-radius: 12px;
+  color: white;
+}
+.third-title {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-shadow: rgba(red, green, blue, alpha);
+  padding: 5px;
+  margin-left: 44%;
+}
+#para-web {
+  font-size: 15px;
+  color: black;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.pro-name {
+  text-align: center;
+  color: white;
+  text-shadow: rgba(red, green, blue, alpha);
+}
+.span {
+  height: 6px;
+  width: 6px;
+  padding: 5px;
+}
+.button {
+  text-align: center;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.2s;
+  margin: 10px 80px;
+  box-shadow: 10px 20px 20px rgba(red, green, blue, alpha);
+  cursor: pointer;
+}
+.button:hover {
+  background: rgb(red, green, blue);
+  transition: 0.2s;
+}
+.checked {
+  color: orange;
+}
+/* ---------------------------------------------------------- Fourth ----------------------------------------------*/
+.fourth-class {
+  width: 1688px;
+  height: 1650px;
+  border-radius: 12px;
+  color: white;
+}
+.fourth-title {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-shadow: rgba(red, green, blue, alpha);
+  padding: 5px;
+  margin-left: 45%;
+}
+.price {
+  margin-left: 35%;
+  color: white;
+}
+#four .tech {
+  background-color: rgb(red, green, blue);
+}
+/* ---------------------------------------------------------- Fifth ----------------------------------------------*/
+.fifth-class {
+  width: 1688px;
+  height: 400px;
+  border-radius: 12px;
+  color: rgb(190, 183, 183);
+}
+.fifth-title {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-shadow: rgba(red, green, blue, alpha);
+  padding: 5px;
+  margin-left: 40%;
+}
+.column img {
+  float: left;
+  width: 25%;
+  height: 200px;
+  opacity: 0.8;
+  cursor: pointer;
+  box-shadow: 10px 20px 20px rgba(red, green, blue, alpha);
+  border-radius: 10px;
+}
+.column img:hover {
+  opacity: 1;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  position: relative;
+  display: none;
+}
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 37%;
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+  size: 20px;
+}
+#expandedImg {
+  width: 35%;
+  height: 35%;
+  margin-left: 30%;
+  margin-top: 10px;
+  box-shadow: 10px 20px 20px rgba(red, green, blue, alpha);
+  border-radius: 10px;
+}
+/* ---------------------------------------------------------- Sixth ----------------------------------------------*/
 .sixth-class {
+  width: 1688px;
+  height: 500px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+.sixth-title {
+  font-size: 25px;
+  font-family: "Quicksand", sans-serif;
+  color: black;
+  text-shadow: rgba(red, green, blue, alpha);
+  padding: 10px;
+  margin-left: 40%;
+}
+.details p {
+  float: left;
+  padding: 10px;
+}
+#info {
+  display: flex;
+  flex-flow: column;
+  font-size: 20px;
+}
+.button {
+  text-align: center;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.2s;
+  padding: 15px;
+  margin: 10px 65px;
+  box-shadow: 10px 10px 10px rgba(red, green, blue, alpha);
+  cursor: pointer;
+}
+.button :hover {
+  background: blue;
+  transition: 0.2s;
+}
+#message {
+  width: 25%;
+  height: 20%;
+  background-color: burlywood;
+}
+
+/* --------------------------------------------footer-----------------------------------------*/
+#footer {
+  position: absolute;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  background-color: black;
+  font-size: 13px;
+  color: white;
+  z-index: 99999999;
+  border-radius: 10px;
+}
+@media (max-width: 992px) {
+  #footer {
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 10px;
+    background: rgba(red, green, blue, alpha);
+  }
+}
+#footer .copyright span {
+  color: blue;
+  transition: 0.3s;
+}
+#footer .copyright span:hover {
+  color: white;
+}
+#footer .credits a {
+  color: blue;
+  transition: 0.3s;
+  text-decoration: none;
+}
+#footer .credits a:hover {
+  color: white;
 }
