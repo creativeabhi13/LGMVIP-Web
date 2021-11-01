@@ -247,7 +247,7 @@ body {
 .row-slide {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
 }
@@ -261,7 +261,7 @@ body {
 /* ---------------------------------------------------------- Fourth ----------------------------------------------*/
 .fourth-class {
   width: 1688px;
-  height: 800px;
+  height: 760px;
   border-radius: 12px;
   color: white;
 }
@@ -269,7 +269,7 @@ body {
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
   color: black;
-  text-shadow: rgba(58, 52, 4, 0.8);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
   padding: 5px;
   margin-left: 45%;
 }
@@ -291,7 +291,7 @@ body {
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
   color: black;
-  text-shadow: rgba(58, 52, 4, 0.8);
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
   padding: 5px;
   margin-left: 40%;
 }
@@ -301,7 +301,7 @@ body {
   height: 200px;
   opacity: 0.8;
   cursor: pointer;
-  box-shadow: 10px 20px 20px rgba(58, 52, 4, 0.8);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
 .column img:hover {
@@ -337,7 +337,7 @@ body {
   height: 35%;
   margin-left: 30%;
   margin-top: 10px;
-  box-shadow: 10px 20px 20px rgba(58, 52, 4, 0.8);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
 /* ---------------------------------------------------------- Sixth ----------------------------------------------*/
@@ -351,8 +351,7 @@ body {
   font-size: 25px;
   font-family: "Quicksand", sans-serif;
   color: black;
-  text-shadow: rgba(58, 52, 4, 0.8);
-
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
   padding: 10px;
   margin-left: 40%;
 }
@@ -377,7 +376,7 @@ body {
   transition: 0.2s;
   padding: 15px;
   margin: 10px 65px;
-  box-shadow: 10px 10px 10px rgba(58, 52, 4, 0.8);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
   cursor: pointer;
 }
 .button :hover {
