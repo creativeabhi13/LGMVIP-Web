@@ -6,7 +6,7 @@ body {
   align-items: center;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   body::before {
     background-attachment: fixed;
   }
@@ -62,7 +62,7 @@ body {
   left: 10%;
   font-size: 25px;
   color: white;
-  text-shadow: 10px 20px 20px rgba(red, green, blue, alpha);
+  text-shadow: 10px 10px 10px black;
   font-family: "Quicksand", sans-serif;
   margin-top: -20px;
 }
@@ -82,7 +82,7 @@ body {
   font-family: "Quicksand", sans-serif;
   text-shadow: rgba(red, green, blue, alpha);
 }
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
   .option a {
     justify-content: center;
     align-items: center;
@@ -180,11 +180,11 @@ body {
 .tech {
   width: 25%;
   height: 55%;
-  margin-left: none;
-  margin-right: none;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: peachpuff;
 
-  border-radius: 10px;
+  border-radius: 15px;
   display: flex;
 
   box-shadow: 10px 10px 10px 10px rgba(58, 52, 4, 0.8);
@@ -266,6 +266,7 @@ body {
   height: 700px;
   border-radius: 12px;
   color: white;
+  background: grey;
 }
 .fourth-title {
   font-size: 25px;
@@ -274,6 +275,16 @@ body {
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
   padding: 5px;
   margin-left: 45%;
+}
+#para {
+  font-size: 15px;
+  color: black;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 .tech #para-web {
   text-align: center;
@@ -314,10 +325,12 @@ body {
 .column img:hover {
   opacity: 1;
 }
+
 .row:after {
   content: "";
-  display: table;
+  display: table-row;
   clear: both;
+  border-radius: 50%;
 }
 .container {
   position: relative;
@@ -352,7 +365,7 @@ body {
   width: 1688px;
   height: 650px;
   border-radius: 10px;
-  color: whitesmoke;
+  background-color: burlywood;
 }
 .sixth-title {
   font-size: 25px;
@@ -391,15 +404,16 @@ body {
   transition: 0.2s;
 }
 #message {
-  width: 25%;
-  height: 20%;
-  background-color: burlywood;
+  width: 35%;
+  height: 60%;
+  color: white;
+  background-image: url("/PROJECT 1/Image/blockchain-node-providers-and-how-they-work-header-1614599954119.jpg");
 }
 
 /* --------------------------------------------footer-----------------------------------------*/
 #footer {
   position: absolute;
-  width: 100%;
+  width: 98%;
   padding: 15px;
   text-align: center;
   background-color: black;
