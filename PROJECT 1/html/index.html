@@ -1,632 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edutech</title>
-<!--Css -->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Edutech</title>
+   <!--Css -->
 
-<link rel="stylesheet" href="/PROJECT 1/Css/style.css">
+   <link rel="stylesheet" href="/PROJECT 1/Css/style.css">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
    <!-----------------------------first section ----------------------------------------->
-      <div class="first-class" id="first">
-         <div class="slides">
-              
-              <!--radio button-->
-               <input type="radio" name="radio-button" id="radio1">
-               <input type="radio" name="radio-button" id="radio2">
-               <input type="radio" name="radio-button" id="radio3">
-               <input type="radio" name="radio-button" id="radio4">
-               <input type="radio" name="radio-button" id="radio5">
-          
-               <!--------------- option-------------->
+   <div class="first-class" id="first">
+      <div class="slides">
 
-                  <div class="option" id="option">
-                 
-                        <a href="index.html" class="nav-link">Home</a>
-                        <a href="#TECHNOLOGY" class="nav-link">Tech</a>
-                        <a href="#PROJECTS" class="nav-link">Projects</a>
-                        <a href="#PRICING" class="nav-link">Pricing</a>
-                        <a href="#TEAM MEMBERS" class="nav-link">Team</a>
-                        <a href="#CONTACT DETAILS" class="nav-link">Contact</a>
-                  </div>
-            <!------------title of the page--------------->
+         <!--radio button-->
+         <input type="radio" name="radio-btn" class="dot" onclick="currentSlide(1)" id="radio1">
+         <input type="radio" name="radio-btn" class="dot" onclick="currentSlide(2)" id="radio2">
+         <input type="radio" name="radio-btn" class="dot" onclick="currentSlide(3)" id="radio3">
+         <input type="radio" name="radio-btn" class="dot" onclick="currentSlide(4)" id="radio4">
+         <input type="radio" name="radio-btn" class="dot" onclick="currentSlide(5)" id="radio5">
 
-                        <div class="title1">
-                           <h2>EDUTECH</h2>
-                        </div>
+         <!--------------- option-------------->
 
-            <!-----------------slide image ----------------> 
+         <div class="option">
 
-                              <div class="slide first">
-                                 <img src="/PROJECT 1/Image/tech3.jpg"alt="image" width="100%" height="1000">
-                              </div>
-                              <div class="slide">
-                                 <img src="/PROJECT 1/Image/tech.jpg"alt="image" width="100%" height="1000">
-                              </div>
-                              <div class="slide">
-                                 <img src="/PROJECT 1/Image/tech2.jpg"alt="image" width="100%" height="1000">
-                              </div>
-                              <div class="--slide">
-                                 <img src="/PROJECT 1/Image/tech1.jpg"alt="image" width="100%" height="1000">
-                              </div>
-                              <div class="slide">
-                                 <img src="/PROJECT 1/Image/tech4.jpg"alt="image" width="100%" height="1000">
-                              </div>
-            <!-------------Title description----------------->
-
-                                          <div class="description">
-                                                <h1 class="big-heading">WELCOME TO THE TECHNOLOGICAL WORLD!</h1>
-                                                <h3>If we teach today as we taught yesterday, we rob our children of tomorrow</h3> 
-                                          </div>
-
-                     <!----------------First button------------------->
-                                          <div class="button">
-                                             <button class="button">Lern More</button>
-                                          </div>
-                  
-                  <!------------navigation menu--------------------->
-                                          <div class="navigation">
-                                                <div class="button1"></div>
-                                                <div class="button2"></div>
-                                                <div class="button3"></div>
-                                                <div class="button4"></div>
-                                                <div class="button5"></div>
-                                          </div>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="#second" class="nav-link">Tech</a>
+            <a href="#third" class="nav-link">Projects</a>
+            <a href="#fourth" class="nav-link">Pricing</a>
+            <a href="#fifth" class="nav-link">Team</a>
+            <a href="#sixth" class="nav-link">Contact</a>
          </div>
-                 <!--------------navigation menu manual-------------->
-                                          <div class="navigation-manual">
-                                                <div for="radio1" class="manual-button"></div>
-                                                <div for="radio2" class="manual-button"></div>
-                                                <div for="radio3" class="manual-button"></div>
-                                                <div for="radio4" class="manual-button"></div>
-                                                <div for="radio5" class="manual-button"></div>
-                                          </div>
+         <!------------title of the page--------------->
+
+         <div class="title1">
+            <h2>EDUTECH</h2>
+         </div>
+
+         <!-----------------slide image ---------------->
+
+         <div class="slide first">
+            <img src="/PROJECT 1/Image/tech3.jpg" alt="image" width="100%" height="1000">
+         </div>
+         <div class="slide">
+            <img src="/PROJECT 1/Image/tech.jpg" alt="image" width="100%" height="1000">
+         </div>
+         <div class="slide">
+            <img src="/PROJECT 1/Image/tech2.jpg" alt="image" width="100%" height="1000">
+         </div>
+         <div class="slide">
+            <img src="/PROJECT 1/Image/tech1.jpg" alt="image" width="100%" height="1000">
+         </div>
+         <div class="slide">
+            <img src="/PROJECT 1/Image/tech4.jpg" alt="image" width="100%" height="1000">
+         </div>
+         <!-------------Title description----------------->
+
+         <div class="description">
+            <h1 class="big-heading">WELCOME TO THE TECHNOLOGICAL WORLD!</h1>
+            <h3>If we teach today as we taught yesterday, we rob our children of tomorrow</h3>
+         </div>
+
+         <!----------------First button------------------->
+         <div class="button">
+            <button class="button">Lern More</button>
+         </div>
+
+         <!------------navigation menu--------------------->
+         <div class="navigation-auto">
+            <div class="auto-btn1" onclick="currentSlide(1)"></div>
+            <div class="auto-btn2" onclick="currentSlide(2)"></div>
+            <div class="auto-btn3" onclick="currentSlide(3)"></div>
+            <div class="auto-btn4" onclick="currentSlide(4)"></div>
+            <div class="auto-btn5" onclick="currentSlide(5)"></div>
+         </div>
       </div>
-                         <script type="text/javascript">
-                            var count = 1
-                            setinterval(function(){
-                               document.getElementByid('radio'+count).checked+true;
-                               count++;
-                               if(count>5){
-                                  count=1;
-                               }
-                            },4000);
-                        </script>
-            <!--first section end-->
+      <!--------------navigation menu manual-------------->
+      <div class="navigation-manual">
+         <div for="radio1" class="manual-btn" onclick="currentSlide(1)"></div>
+         <div for="radio2" class="manual-btn" onclick="currentSlide(2)"></div>
+         <div for="radio3" class="manual-btn" onclick="currentSlide(3)"></div>
+         <div for="radio4" class="manual-btn" onclick="currentSlide(4)"></div>
+         <div for="radio5" class="manual-btn" onclick="currentSlide(5)"></div>
+      </div>
+   </div>
+
+   <!--first section end-->
 
    <!--------------------------------second ------------------------------------>
-                     <div class="second-class" id="second">
-                           <div class="second-title">
-                              <h2>TECHNOLOGY</h2>
-                           </div>
-                           
-                           <div class="row-slide">
-                              
-                                        <img  class="slider" src="/PROJECT 1/Image/Artificial-Intelligence-Technology.png" alt=""  width="30%" height="300">
-                                         <br>
-                               
-                                        <img  class="slider" src="/PROJECT 1/Image/data-science.jpg" alt="" width="30%" height="300">
-                                         <br>
-                                       <img  class="slider" src="/PROJECT 1/Image/cloud-computing.jpg" alt="" width="30%" height="300">
-                                          <br>
-                                 <div class="row-slide1">
-                                        <img  class="slider" src="/PROJECT 1/Image/Machine-learningg.jpg" alt="" width="30%" height="300">
-                                       <br>
-                                
-                                        <img  class="slider" src="/PROJECT 1/Image/webdev.jpg" alt="" width="30%" height="300">
-                                     <br>
-                                
-                                        <img  class="slider" src="/PROJECT 1/Image/Android-app-development.jpg" alt=""  width="30%" height="300">
-                                 </div>
-                           </div>
-                     </div>
-        <!-- ----------------------------script 2------------------------------------------------>            
-                     <script src="https //ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
-                     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-                        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-                        </script>
-                     <script type="text/javascript">
-                         $(' .slider').slick({
-                         dots: true,
-                         infinte: false,
-                         speed: 300,
-                         slideTOShow: 3,
-                         slidesTOScroll: 4,
-                         responsive:[
-                             {
-                                breakpoint:1024,
-                                settings: {
-                                   slideTOShow: 3,
-                                   slidesTOScroll: 3,
-                                   infinite: true,
-                                   dots: true
-                                }
-                             },
-                             {
-                              breakpoint: 600,
-                              settings: {
-                                   slideTOShow: 2,
-                                   slidesTOScroll: 2
-                              }  
-                             },
-                             {
-                                breakpoint: 480,
-                                settings: {
-                                   slideTOShow: 1,
-                                   slidesTOScroll: 1
-                             }
-                             }
-                        ]
-                         }); 
-                     </script>
-      <!---------------------------------Second section end------------------------------------->
-                        
-                     
-                     
-                     
-                     
-      <!---------------------------------Third section ------------------------------------->
-                     <div class="third-class" id="third">
-                           <div class="third-title">
-                              <h2>PROJECTS</h2>
-                           </div>
-                           <div class="row-slide">
-                              <div class="tech">
-                                 <div class="tech1">
-                                     <h2 class="pro-name">Artificial Intelligence</h2>
-                                     <p id="para-web">
-                                       Learn Artificial Intelligence from leading experts and attain a Dual Certificate on AI and Machine Learning from the
-                                       world-renowned universities. Take the step towards your professional growth by obtaining expertise in the real-world
-                                       application of the latest technological tools of AI..</p>
-                                     <div class="span">
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech2">
-                                     <h2 class="pro-name">Data Science</h2>
-                                     <p id="para-web">
-                                       Learn Data Science from global experts and attain a Data Science Certification from the world's renowned universities.
-                                       Become a Data Scientist by taking up the comprehensive Data Science courses designed for working professionals and fresh
-                                       graduates..</p>
-                                     <div class="span">
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech3">
-                                     <h2 class="pro-name">Cloud Computing</h2>
-                                     <p id="para-web">
-                                       Cloud Computing courses and specializations teach cloud architecture, services, hosting, and more. Differentiate
-                                       yourself in the IT industry, by learning
-                                       how to properly leverage the Cloud.</p>
-                                     <div class="span">
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech4">
-                                     <h2 class="pro-name">Machine Learning</h2>
-                                     <p id="para-web">
-                                       Machine learning isn’t just useful for predictive texting or smartphone voice recognition. Machine learning is
-                                       constantly being applied to new industries and new problems. Whether you’re a marketer, video game designer, or
-                                       programmer, Udemy has a course to help you apply machine learning to your work.</p>
-                                     <div class="span">
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech5">
-                                     <h2 class="pro-name">Web Development</h2>
-                                     <p id="para-web">
-                                       Welcome to the Complete Web Development Bootcamp, the only course you need to learn to code and become a full-stack web
-                                       developerLearn to Design and Create Websites. Build a responsive and accessible web portfolio using HTML5, CSS3, and JavaScript.</p>
-                                     <div class="span">
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech6">
-                                     <h2 class="pro-name">Android App Development</h2>
-                                     <p id="para-web">
-                                       Due to its open-source nature, working with the Android platform necessitates constantly learning about the Android
-                                       platform. Udemy’s Android development courses keep you ahead of this learning curve, with courses on Android operating
-                                       systems and more.</p>
-                                     <div class="span">
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                          <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
+   <div class="second-class" id="second">
+      <div class="second-title">
+         <h2>TECHNOLOGY</h2>
+      </div>
+
+      <div class="row-slide">
+
+         <img class="slider" src="/PROJECT 1/Image/Artificial-Intelligence-Technology.png" alt="" width="30%"
+            height="300">
+         <br>
+
+         <img class="slider" src="/PROJECT 1/Image/data-science.jpg" alt="" width="30%" height="300">
+         <br>
+         <img class="slider" src="/PROJECT 1/Image/cloud-computing.jpg" alt="" width="30%" height="300">
+         <br>
+         <!-- <div class="row-slide1"> -->
+         <img class="slider" src="/PROJECT 1/Image/Machine-learningg.jpg" alt="" width="30%" height="300">
+         <br>
+
+         <img class="slider" src="/PROJECT 1/Image/webdev.jpg" alt="" width="30%" height="300">
+         <br>
+
+         <img class="slider" src="/PROJECT 1/Image/Android-app-development.jpg" alt="" width="30%" height="300">
+         <!-- </div> -->
+      </div>
+   </div>
+   <!-- ----------------------------script 2------------------------------------------------>
+
+   <!---------------------------------Second section end------------------------------------->
 
 
-                           </div>
-                     </div>
-         
-         <!-- ----------------------------script 3------------------------------------------------>
-                     <script type="text/javascript">
-                        $(' .slider').slick({
-                           dots: true,
-                           infinte: false,
-                           speed: 300,
-                           slideTOShow: 3,
-                           slidesTOScroll: 4,
-                           responsive: [
-                              {
-                                 breakpoint: 1024,
-                                 settings: {
-                                    slideTOShow: 3,
-                                    slidesTOScroll: 3,
-                                    infinite: true,
-                                    dots: true
-                                 }
-                              },
-                              {
-                                 breakpoint: 600,
-                                 settings: {
-                                    slideTOShow: 2,
-                                    slidesTOScroll: 2
-                                 }
-                              },
-                              {
-                                 breakpoint: 480,
-                                 settings: {
-                                    slideTOShow: 1,
-                                    slidesTOScroll: 1
-                                 }
-                              }
-                           ]
-                        });
-                     </script>
-         <!-----------------------------------Third section end ------------------------------------->
-         
-         <!------------------------------------Fourth section --------------------------------------->
-                        <div class="fourth-class" id="fourth">
-                           <div class="fourth-title">
-                              <h2>PRICING</h2>
-                           </div>
-                           <div class="row-slide">
-                              <div class="tech">
-                                 <div class="tech1">
-                                    <h2 class="pro-name">Artificial Intelligence</h2>
-                                    <p id="para-web">Artificial Intelligence Real time Projects.
-                                       <br><br><br><br> 20 Projects
-
-                                       </p>
-                                    <h2 class="price">$ 15</h2>
-                                    <div class="span">
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech2">
-                                    <h2 class="pro-name">Data Science</h2>
-                                    <p id="para-web"> Data Science REal time Projects.
-                                       <br><br><br><br> 20 Projects
-                                    </p>
-                                    <h2 class="price">$ 15</h2>
-                                    <div class="span">
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech3">
-                                    <h2 class="pro-name">Cloud Computing</h2>
-                                    <p id="para-web"> Cloud Computing  Real time Projects.
-                                       <br><br><br><br> 20 Projects
-                                       </p>
-                                    <h2 class="price">$ 25</h2>
-                                    <div class="span">
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech4">
-                                    <h2 class="pro-name">Machine Learning</h2>
-                                    <p id="para-web">Machine Learning Real time Projects.
-                                       <br><br><br><br> 20 Projects
-                                    </p>
-                                    <h2 class="price">$ 25</h2>
-                                    <div class="span">
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech5">
-                                    <h2 class="pro-name">Web Development</h2>
-                                    <p id="para-web">Web Development Real time Projects.
-                                       <br><br><br><br>  10 Front End + 10 Back End Projects
-                                    </p>
-                                    <h2 class="price">$ 15</h2>
-                                    <div class="span">
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="tech">
-                                 <div class="tech6">
-                                    <h2 class="pro-name">Android App Development</h2>
-                                    <p id="para-web">Android App Development Real time Projects.
-                                          <br><br><br><br> 20 Projects
-                                    </p>
-                                    <h2 class="price">$ 20</h2>
-                                    <div class="span">
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                       <span class="fasterchecked"></span>
-                                    </div>
-                                    <div class="button-pro">
-                                       <button class="enroll">Register Now</button>
-                                    </div>
-                                 </div>
-                              </div>
-                        
-                        
-                           </div>
-                        </div>
-    <!---------------------------------Script 4 ------------------------------------->
-                        <script type="text/javascript">
-                           $(' .slider').slick({
-                              dots: true,
-                              infinte: false,
-                              speed: 300,
-                              slideTOShow: 3,
-                              slidesTOScroll: 4,
-                              responsive: [
-                                 {
-                                    breakpoint: 1024,
-                                    settings: {
-                                       slideTOShow: 3,
-                                       slidesTOScroll: 3,
-                                       infinite: true,
-                                       dots: true
-                                    }
-                                 },
-                                 {
-                                    breakpoint: 600,
-                                    settings: {
-                                       slideTOShow: 2,
-                                       slidesTOScroll: 2
-                                    }
-                                 },
-                                 {
-                                    breakpoint: 480,
-                                    settings: {
-                                       slideTOShow: 1,
-                                       slidesTOScroll: 1
-                                    }
-                                 }
-                              ]
-                           });
-                        </script>
-        <!---------------------------------Fourth section end ------------------------------------->
-
-      <!---------------------------------Fifth section  ------------------------------------->
-                       <div class="fifth-class" id="fifth">
-                            <div class="fifth-title">
-                               <h2 >TEAM MEMBERS</h2>
-                            </div>
-                            <div class="row">
-                                <div class="column">
-                                    <img class="slider" src="/PROJECT 1/Image/team 1.jpg" alt="" width="30%" height="300">
-                                </div>
-                                <div class="column">
-                                    <img class="slider" src="/PROJECT 1/Image/team 2.jpg" alt="" width="30%" height="300">
-                                </div>
-                                <div class="column">
-                                    <img class="slider" src="/PROJECT 1/Image/team 3.jpg" alt="" width="30%" height="300">
-                                </div>
-                                <div class="column">
-                                    <img class="slider" src="/PROJECT 1/Image/team 4.png" alt="" width="30%" height="300">
-                                </div>
-                            </div>
-
-                            <div class="container">
-                                <span onclick="this.parentElement.style.display='none'" class="close-button">&times;
-                                <img id="expandedImg">
-
-                                <div id="imgtext"></div>
-                              </span>
-                            </div>
-                       </div> 
-
-        <!---------------------------------Script 5 -------------------------------------> 
-                         <script type="text/javascript">
-                             function myfunction(imgs){
-                                  var expandedImg = Document.getElementByid("expandedImg");
-                                  var imgtext = Document.getElementByid("imgtext");
-                                  expandImg.src =imgs.src;
-                                  imgText.innerHTML = imgs.alt;
-                                  expandImg.parentElement.style.display ="block";
-                             }
-
-                         </script>
-<!--------------------------------Fifth section end ------------------------------------->
 
 
-<!---------------------------------sixth section  ------------------------------------->
-                        <div class="sixth-class" id="sixth">
-                              <div class="sixth-title">
-                               <h2>CONTACT DETAILS</h2>
-                              </div>
-                              <div class="details">
-                                          <p id="info" >
-                                             <strong> Address </strong>
-                                             <br>301/303,3rd flower 
-                                             <br>Gali no.2a,j block 
-                                             <br> West sagarpur
-                                             <br>New Delhi(110046)
-                                          </p>
-                                          <p id="info">
-                                             <strong> Phone No: </strong>
-                                             <br>+918603944898 
-                                             <br>
-                                             <strong> Email: </strong>
-                                             <br>creativeabhi13@gmail.com 
-                                          </p>
-                              </div>
-                              <div class="details">
-                                    <p id="map">
-                                       <iframe
-                                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14306.47724495984!2d84.1872534!3d26.3064385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ac8d21b370de87d!2sCreativeabhi13!5e0!3m2!1sen!2sin!4v1635618923096!5m2!1sen!2sin"
-                                          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                                    </p>
-                              </div>
-                              <div class="details">
-                                          <p id="message" ">
-                                               <label for="email" class="input-group"></label>
-                                               <input type="email" name="email" id="email" placeholder="Enter the Email " style="padding: 10px; border: 3px solid blue; ">
-                                               <label for="Name" class="input-group"></label>
-                                               <input type="name" name="name" id="name" placeholder="Enter the Name " style="padding: 10px; border: 3px solid blue; ">
-                                               <label for="number" class="input-group"></label>
-                                               <input type="number" name="number" id="number" placeholder="Enter the No. " style="padding: 10px; border: 3px solid blue; ">
-                                               
-                                               <button class="button">CONTACT NOW</button>
-                                          </p>
-                              </div>
 
-                        </div>
-<!---------------------------------Sixth section end ------------------------------------->
+   <!---------------------------------Third section ------------------------------------->
+   <div class="third-class" id="third">
+      <div class="third-title">
+         <h2>PROJECTS</h2>
+      </div>
+      <div class="row-slide">
+         <div class="tech">
+            <div class="tech1">
+               <h2 class="pro-name">Artificial Intelligence</h2>
+               <p id="para-web">
+                  Learn Artificial Intelligence from leading experts and attain a Dual Certificate on AI and Machine
+                  Learning from the
+                  world-renowned universities. Take the step towards your professional growth by obtaining expertise in
+                  the real-world
+                  application of the latest technological tools of AI..</p>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech2">
+               <h2 class="pro-name">Data Science</h2>
+               <p id="para-web">
+                  Learn Data Science from global experts and attain a Data Science Certification from the world's
+                  renowned universities.
+                  Become a Data Scientist by taking up the comprehensive Data Science courses designed for working
+                  professionals and fresh
+                  graduates..</p>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech3">
+               <h2 class="pro-name">Cloud Computing</h2>
+               <p id="para-web">
+                  Cloud Computing courses and specializations teach cloud architecture, services, hosting, and more.
+                  Differentiate
+                  yourself in the IT industry, by learning
+                  how to properly leverage the Cloud.</p>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech4">
+               <h2 class="pro-name">Machine Learning</h2>
+               <p id="para-web">
+                  Machine learning isn’t just useful for predictive texting or smartphone voice recognition. Machine
+                  learning is
+                  constantly being applied to new industries and new problems. Whether you’re a marketer, video game
+                  designer, or
+                  programmer, Udemy has a course to help you apply machine learning to your work.</p>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech5">
+               <h2 class="pro-name">Web Development</h2>
+               <p id="para-web">
+                  Welcome to the Complete Web Development Bootcamp, the only course you need to learn to code and become
+                  a full-stack web
+                  developerLearn to Design and Create Websites. Build a responsive and accessible web portfolio using
+                  HTML5, CSS3, and JavaScript.</p>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech6">
+               <h2 class="pro-name">Android App Development</h2>
+               <p id="para-web">
+                  Due to its open-source nature, working with the Android platform necessitates constantly learning
+                  about the Android
+                  platform. Udemy’s Android development courses keep you ahead of this learning curve, with courses on
+                  Android operating
+                  systems and more.</p>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
 
-<!---------------------------------Footer section ------------------------------------->
-                        <footer id="footer">
-                           <div class="box">
-                                    <a href="index.html">
-                                       <h2 class="footer__title" style="text-decoration: none; color: white; "><strong style="text-decoration: none;">EDUTECH</strong></h2>
-                                    </a>
-                              
-                                       <!--   jQuery (Bootstrap Js Plugins depend on it )-->
-                                       <script src="js/jquery-2.1.4.min.js"></script>
-                                       <script src="js/bootstrap.bundle.min.js"></script>
-                                       <script src="js/script.js"></script>
-                                      
-                                          
-                                       <h2 ><strong>Follow Us On;</strong></h2>
-                                       
-                                             <a href="https://www.facebook.com/creativeabhi13" target="blank">
-                                                   <img src="/PROJECT 1/Image/fb.png" width="30px" height="30px" alt="">
-                                                </a>
-                                                <a href="https://www.instagram.com/creativeabhi13" target="blank">
-                                                   <img src="/PROJECT 1/Image/insta.png" width="30px" height="30px" alt="">
-                                                </a>
-                                                <a href="https://www.youtube.com/creativeabhi13" target="blank">
-                                                   <img src="/PROJECT 1/Image/youtube.png" width="40px" height="40px" alt="">
-                                                </a>
-                                                <a href="https://www.linkedin.com/in/creativeabhi13/" target="blank">
-                                                   <img src="/PROJECT 1/Image/linkedin.png" width="40px" height="40px" alt="">
-                                                </a>
-                                                <a href="https://wa.me/+918603944898" target="blank">
-                                                   <img src="/PROJECT 1/Image/wha.png" width="40px" height="40px" alt="">
-                                                </a>
-                                       
-                           
-                              <div class="copyright">
-                                   <h2> &copy; 2021 Copyright All Right Reserved By <strong><span>&#169;EDUTECH
-                                    </span></strong> </h2>
-                              </div>
-                              <div class="credits">
-                                 Designed By <a href="https://en.wikipedia.org/wiki/India">INDIA</a> 
-                              </div>
-                           </div>
-                        </footer>
-                     
+
+      </div>
+   </div>
+
+
+   <!-----------------------------------Third section end ------------------------------------->
+
+   <!------------------------------------Fourth section --------------------------------------->
+   <div class="fourth-class" id="fourth">
+      <div class="fourth-title">
+         <h2>PRICING</h2>
+      </div>
+      <div class="row-slide">
+         <div class="tech">
+            <div class="tech1">
+               <h2 class="pro-name">Artificial Intelligence</h2>
+               <p id="para-web">Artificial Intelligence Real time Projects.
+                  <br><br><br><br> 20 Projects
+
+               </p>
+               <h2 class="price">$ 15</h2>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech2">
+               <h2 class="pro-name">Data Science</h2>
+               <p id="para-web"> Data Science REal time Projects.
+                  <br><br><br><br> 20 Projects
+               </p>
+               <h2 class="price">$ 15</h2>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech3">
+               <h2 class="pro-name">Cloud Computing</h2>
+               <p id="para-web"> Cloud Computing Real time Projects.
+                  <br><br><br><br> 20 Projects
+               </p>
+               <h2 class="price">$ 25</h2>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech4">
+               <h2 class="pro-name">Machine Learning</h2>
+               <p id="para-web">Machine Learning Real time Projects.
+                  <br><br><br><br> 20 Projects
+               </p>
+               <h2 class="price">$ 25</h2>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech5">
+               <h2 class="pro-name">Web Development</h2>
+               <p id="para-web">Web Development Real time Projects.
+                  <br><br><br><br> 10 Front End + 10 Back End Projects
+               </p>
+               <h2 class="price">$ 15</h2>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+         <div class="tech">
+            <div class="tech6">
+               <h2 class="pro-name">Android App Development</h2>
+               <p id="para-web">Android App Development Real time Projects.
+                  <br><br><br><br> 20 Projects
+               </p>
+               <h2 class="price">$ 20</h2>
+               <div class="span">
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+                  <span class="fasterchecked"></span>
+               </div>
+               <div class="button-pro">
+                  <button class="enroll">Register Now</button>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+   </div>
+   <!---------------------------------Script 4 ------------------------------------->
+   <!-- <script type="text/javascript">
+      $(' .slider').slick({
+         dots: true,
+         infinte: false,
+         speed: 300,
+         slideTOShow: 3,
+         slidesTOScroll: 4,
+         responsive: [
+            {
+               breakpoint: 1024,
+               settings: {
+                  slideTOShow: 3,
+                  slidesTOScroll: 3,
+                  infinite: true,
+                  dots: true
+               }
+            },
+            {
+               breakpoint: 600,
+               settings: {
+                  slideTOShow: 2,
+                  slidesTOScroll: 2
+               }
+            },
+            {
+               breakpoint: 480,
+               settings: {
+                  slideTOShow: 1,
+                  slidesTOScroll: 1
+               }
+            }
+         ]
+      });
+   </script> -->
+   <!---------------------------------Fourth section end ------------------------------------->
+
+   <!---------------------------------Fifth section  ------------------------------------->
+   <div class="fifth-class" id="fifth">
+      <div class="fifth-title">
+         <h2>TEAM MEMBERS</h2>
+      </div>
+      <div class="row">
+         <div class="column">
+            <img class="slider" src="/PROJECT 1/Image/team 1.jpg" alt="" width="30%" height="300">
+         </div>
+         <div class="column">
+            <img class="slider" src="/PROJECT 1/Image/team 2.jpg" alt="" width="30%" height="300">
+         </div>
+         <div class="column">
+            <img class="slider" src="/PROJECT 1/Image/team 3.jpg" alt="" width="30%" height="300">
+         </div>
+         <div class="column">
+            <img class="slider" src="/PROJECT 1/Image/team 4.png" alt="" width="30%" height="300">
+         </div>
+      </div>
+
+      <div class="container">
+         <span onclick="this.parentElement.style.display='none'" class="close-button">&times;
+            <img id="expandedImg">
+
+            <div id="imgtext"></div>
+         </span>
+      </div>
+   </div>
+
+   <!---------------------------------Script 5 ------------------------------------->
+   <!-- <script type="text/javascript">
+      function myfunction(imgs) {
+         var expandedImg = Document.getElementByid("expandedImg");
+         var imgtext = Document.getElementByid("imgtext");
+         expandImg.src = imgs.src;
+         imgText.innerHTML = imgs.alt;
+         expandImg.parentElement.style.display = "block";
+      }
+
+   </script> -->
+   <!--------------------------------Fifth section end ------------------------------------->
+
+
+   <!---------------------------------sixth section  ------------------------------------->
+   <div class="sixth-class" id="sixth">
+      <div class="sixth-title">
+         <h2>CONTACT DETAILS</h2>
+      </div>
+      <div class="details">
+         <p id="info">
+            <strong> Address </strong>
+            <br>301/303,3rd flower
+            <br>Gali no.2a,j block
+            <br> West sagarpur
+            <br>New Delhi(110046)
+         </p>
+         <p id="info">
+            <strong> Phone No: </strong>
+            <br>+918603944898
+            <br>
+            <strong> Email: </strong>
+            <br>creativeabhi13@gmail.com
+         </p>
+      </div>
+      <div class="details">
+         <p id="map">
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14306.47724495984!2d84.1872534!3d26.3064385!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ac8d21b370de87d!2sCreativeabhi13!5e0!3m2!1sen!2sin!4v1635618923096!5m2!1sen!2sin"
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         </p>
+      </div>
+      <div class="details">
+         <p id="message" ">
+                                               <label for=" email" class="input-group"></label>
+            <input type="email" name="email" id="email" placeholder="Enter the Email "
+               style="padding: 10px; border: 3px solid blue; ">
+            <label for="Name" class="input-group"></label>
+            <input type="name" name="name" id="name" placeholder="Enter the Name "
+               style="padding: 10px; border: 3px solid blue; ">
+            <label for="number" class="input-group"></label>
+            <input type="number" name="number" id="number" placeholder="Enter the No. "
+               style="padding: 10px; border: 3px solid blue; ">
+
+            <button class="button">CONTACT NOW</button>
+         </p>
+      </div>
+
+   </div>
+   <!---------------------------------Sixth section end ------------------------------------->
+
+   <!---------------------------------Footer section ------------------------------------->
+   <footer id="footer">
+      <div class="box">
+         <a href="index.html">
+            <h2 class="footer__title" style="text-decoration: none; color: white; "><strong
+                  style="text-decoration: none;">EDUTECH</strong></h2>
+         </a>
+
+
+
+         <h2><strong>Follow Us On;</strong></h2>
+
+         <a href="https://www.facebook.com/creativeabhi13" target="blank">
+            <img src="/PROJECT 1/Image/fb.png" width="30px" height="30px" alt="">
+         </a>
+         <a href="https://www.instagram.com/creativeabhi13" target="blank">
+            <img src="/PROJECT 1/Image/insta.png" width="30px" height="30px" alt="">
+         </a>
+         <a href="https://www.youtube.com/creativeabhi13" target="blank">
+            <img src="/PROJECT 1/Image/youtube.png" width="40px" height="40px" alt="">
+         </a>
+         <a href="https://www.linkedin.com/in/creativeabhi13/" target="blank">
+            <img src="/PROJECT 1/Image/linkedin.png" width="40px" height="40px" alt="">
+         </a>
+         <a href="https://wa.me/+918603944898" target="blank">
+            <img src="/PROJECT 1/Image/wha.png" width="40px" height="40px" alt="">
+         </a>
+
+
+         <div class="copyright">
+            <h2> &copy; 2021 Copyright All Right Reserved By <strong><span>&#169;EDUTECH
+                  </span></strong> </h2>
+         </div>
+         <div class="credits">
+            Designed By <a href="https://en.wikipedia.org/wiki/India">INDIA</a>
+         </div>
+      </div>
+   </footer>
+   <script src="../Javascript/index.js"></script>
 </body>
+
 </html>
