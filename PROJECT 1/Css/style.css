@@ -445,3 +445,8 @@ body {
 #footer .credits a:hover {
   color: white;
 }
+
+.main-tech {
+  text-align: center;
+  width: 100%;
+}
